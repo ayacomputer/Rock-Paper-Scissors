@@ -18,13 +18,7 @@ function playGame() {
 
     if (userInput === computerInput) {
         ties++;
-        alert("It's a tie!\nStats:\nWins: " + wins + "\nTies: " + ties + "\nLosses: " + loses);
-
-        if (confirm("Try again?")) {
-            playGame();
-        } else {
-            byeBye;
-        }
+        alert("It's a tie!");
 
     } else if (
         (userInput === "R" && computerInput === "S") ||
@@ -32,25 +26,23 @@ function playGame() {
         (userInput === "S" && computerInput === "P")
     ) {
         wins++;
-        alert("You win!\nStats:\nWins: " + wins + "\nTies: " + ties + "\nLosses: " + loses);
-
-        if (confirm("Try again?")) {
-            playGame();
-        } else {
-            byeBye;
-        }
+        alert("You win!");
 
     } else {
         loses++;
-        alert("You lost!\nStats:\nWins: " + wins + "\nTies: " + ties + "\nLosses: " + loses);
-
-        if (confirm("Try again?")) {
-            playGame();
-        } else {
-            byeBye;
-        }
+        alert("You lost!");
 
     };
+
+    alert(
+        "Stats:\nWins: " + wins + "\nTies: " + ties + "\nLosses: " + loses);
+
+    if (confirm("Try again?")) {
+        playGame();
+    } else {
+        alert("Bye bye");
+    }
+
 
 
 }
