@@ -1,10 +1,13 @@
-# Rock-Paper-Scissors
+# About
+```
+This is my first game using only JavaScript.
+Learning how to use: 
+if, function, confirm(), alert(), prompt()
+```
 
-In this activity, you will work with a group to build a game using only JavaScript.
-
-## Instructions
-
-The completed application should meet the following criteria:
+## Instruction
+```
+This application should meet the following criteria:
 
 * As a user, I want to play Rock, Paper, Scissors against an automated opponent.
 
@@ -15,3 +18,4 @@ The completed application should meet the following criteria:
 * As a user, I want the option to play again whether I win or lose.
 
 * As a user, I want to see my total wins, ties, and losses after each round.
+```
