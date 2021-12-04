@@ -5,7 +5,9 @@ Learning how to use:
 if, function, confirm(), alert(), prompt()
 ```
 
-## Instruction
+## Product
+Link: https://ayacomputer.github.io/Rock-Paper-Scissors/
+
 ```
 This application should meet the following criteria:
 
